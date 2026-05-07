@@ -68,4 +68,7 @@ SITTA adalah aplikasi web modern berbasis *Client-Side* yang dirancang untuk men
 7.  Aplikasi akan online dalam beberapa menit!
 
 ---
+---
 **Tugas Pemrograman Berbasis Web - Universitas Terbuka**
+**Developed by: [dems123tech](https://github.com/dems123tech)**
+
