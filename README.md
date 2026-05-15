@@ -92,6 +92,37 @@ Pemrograman_berbasis_web/
 
 ---
 
+## ⚡ Full-Stack Implementation (Node.js + Express)
+
+Aplikasi ini sekarang mendukung **Full-Stack Architecture**. Data tidak lagi disimpan di `localStorage` browser, melainkan di database server (JSON-based LowDB) melalui REST API.
+
+### 🛠️ Backend Tech Stack
+*   **Runtime**: Node.js
+*   **Framework**: Express.js
+*   **Database**: LowDB (JSON File Database)
+*   **Auth**: JSON Web Token (JWT)
+
+### 🚀 Cara Menjalankan (Local)
+1.  **Masuk ke folder backend**:
+    ```bash
+    cd backend
+    ```
+2.  **Install dependensi** (jika pertama kali):
+    ```bash
+    npm install
+    ```
+3.  **Jalankan server**:
+    ```bash
+    node server.js
+    ```
+4.  **Akses Aplikasi**:
+    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
+
+> [!IMPORTANT]
+> Pastikan backend berjalan di terminal agar fitur Login, Stok, dan Tracking dapat berfungsi dengan data dari database.
+
+---
+
 ## 👨‍💻 Author
 
 | Detail | Information |
