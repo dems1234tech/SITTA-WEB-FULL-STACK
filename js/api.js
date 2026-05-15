@@ -3,7 +3,11 @@
  * Gantikan localStorage dengan fungsi-fungsi ini.
  */
 
-const API_BASE = 'http://localhost:3000/api';
+// Menggunakan URL tunnel publik jika dibuka dari GitHub Pages, 
+// jika tidak, gunakan path relatif (bekerja di localhost & tunnel langsung).
+const API_BASE = window.location.origin.includes('github.io') 
+  ? 'https://urban-ceo-reynolds-nations.trycloudflare.com/api' 
+  : (window.location.origin + '/api');
 
 // ─── TOKEN MANAGEMENT ─────────────────────────────────────────────────────────
 function getToken() {
